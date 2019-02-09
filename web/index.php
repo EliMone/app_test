@@ -4,6 +4,8 @@
  *
  * @package Example-application
  */
+
+//
 require_once "../private_html/config.php";
 //$smarty->force_compile = true;
 /*$smarty->debugging = true;
