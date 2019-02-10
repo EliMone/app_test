@@ -15,7 +15,7 @@
             fetchUsers().then((res) => {
                 console.log(res)
 
-                document.getElementById("user").innerHTML = res.data.login + " Mone";
+                document.getElementById("user").innerHTML = `<p> ${res.data.login}  Mone</p>`;
                
             })
         };
