@@ -50,13 +50,10 @@
         </div>
     </div>
     
-      <div>
-        <div>
-            <div>
-              <cener> <p id="user"></p> </center>
+           <div>
+              <cener id="user"> </center>
             </div>
-        </div>
-    </div>
+        
     
     <script src="./scripts/jquery-3.3.1.min.js"></script>
     <script src="./scripts/bootstrap.min.js"></script>
