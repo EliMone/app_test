@@ -49,8 +49,15 @@
             </div>
         </div>
     </div>
-     
-    <cener> <p id="user"> </p> <p> Mone</p></center>
+    
+      <div>
+        <div>
+            <div>
+              <cener> <p id="user"></p> </center>
+            </div>
+        </div>
+    </div>
+    
     <script src="./scripts/jquery-3.3.1.min.js"></script>
     <script src="./scripts/bootstrap.min.js"></script>
   </body>
