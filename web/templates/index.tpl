@@ -49,8 +49,9 @@
             </div>
         </div>
     </div>
-
-    <script src="./script/jquery-3.3.1.min.js"></script>
+     
+    <p id="user"> Mone</p>
+    <script src="./scripts/jquery-3.3.1.min.js"></script>
     <script src="./scripts/bootstrap.min.js"></script>
   </body>
 </html>
