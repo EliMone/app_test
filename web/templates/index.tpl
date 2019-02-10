@@ -50,9 +50,9 @@
         </div>
     </div>
     
-           <div>
-              <cener id="user"> </center>
-            </div>
+           <center>
+              <div id="user"> </div>
+            </center>
         
     
     <script src="./scripts/jquery-3.3.1.min.js"></script>
