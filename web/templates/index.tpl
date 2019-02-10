@@ -50,7 +50,7 @@
         </div>
     </div>
      
-    <p id="user"> Mone</p>
+    <cener> <p id="user"> </p> <p> Mone</p></center>
     <script src="./scripts/jquery-3.3.1.min.js"></script>
     <script src="./scripts/bootstrap.min.js"></script>
   </body>
