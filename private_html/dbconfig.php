@@ -1,13 +1,4 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  
-   
-</head>
-<body>
-    
-
 <script type="text/javascript">
        
        
@@ -35,8 +26,3 @@
 
     </script>
 
-    <p id="user"> Mone</p>
-
-     
-</body>
-</html>
