@@ -13,7 +13,7 @@
                 <a class="nav-link" href="./sample1.php">Link 1</a>
             </li>
              <li class="nav-item">
-                <a class="nav-link" href="#">sample2.php</a>
+                <a class="nav-link" href="#">sample2.php> Sample API</a>
             </li>
             <li>
             <form class="form-inline" action="/action_page.php">
@@ -25,12 +25,11 @@
         </nav> 
     <div></br>  </div>
                 <div class="col-md-12 col-lg-12">
-                    <picture>
-                            <source srcset="images/courtney-hedger-336844-unsplash.jpg" type="image/svg+xml">
-                            <img src="images/courtney-hedger-336844-unsplash.jpg" class="img-fluid img-thumbnail" alt="Cinque Terre" width="2000" height="100">
-                    </picture>
-                    
-            </div>
+                    <script src="./script/game_rules.js"></script>    
+                     <center>
+                    <div id="user"> </div>
+                    </center>                
+               </div>
                  
     <script src="./script/jquery-3.3.1.min.js"></script>
     <script src="./scripts/bootstrap.min.js"></script>

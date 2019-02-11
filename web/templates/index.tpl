@@ -49,10 +49,6 @@
             </div>
         </div>
     </div>
-    
-           <center>
-              <div id="user"> </div>
-            </center>
         
     
     <script src="./scripts/jquery-3.3.1.min.js"></script>
