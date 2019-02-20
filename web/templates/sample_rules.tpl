@@ -29,9 +29,10 @@
 
               <a class="nav-link" href="./card_games.php">Card Games</a>
             </li>
-            <li class="nav-item">
+             <li class="nav-item">
+
               <a class="nav-link" href="./sample_rules.php">Sample Rules</a>
-              </li>
+            </li>
             <!--<li class="nav-item">-->
             <!--  <a class="nav-link disabled" href="#">Disabled</a>-->
             <!--</li>-->
@@ -44,46 +45,16 @@
       </nav>
     </header>
    <div></br>  </div>
-    <main role="main" class="container">
-        <div class="hero">
-        
-        <h1>Welcome to the GameRepo!</h1>
-
-        <p>Please enjoy this repository for board and card game rules.</p>
-
-        <h2>Popular Games</h2>
-
-        <p>This sample text serves in place of suggested games as we currently have no rulesets to offer.</p>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nulla et metus congue finibus. Nam mauris nisl, sodales a purus quis, ornare commodo lacus.</p>
-
-        <h2>Trending Games</h2>
-
-        <p>This sample text serves in place of suggested games as we currently have no rulesets to offer.</p>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nulla et metus congue finibus. Nam mauris nisl, sodales a purus quis, ornare commodo lacus.</p>
-
-        <h2>Random Games</h2>
-
-        <p>This sample text serves in place of suggested games as we currently have no rulesets to offer.</p>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nulla et metus congue finibus. Nam mauris nisl, sodales a purus quis, ornare commodo lacus.</p>
-
-        <h2>Developers</h2>
-
-        <ul>
-                <li>Wyatt Derk</li>
-                <li>Eliezer Mwankenja</li>
-                <li>Ibi Braide</li>
-                <li>Joshua Simmons</li>
-                <li>Benjamin Underwood</li>
-        </ul>
-        </div>
-    </main>
-
+          <div class="container">
+             <div class="col-md-12 col-lg-12">
+                   <script type="text/javascript" src="./scripts/get_rules.js"></script>      
+                   <div>
+                      <div id="rules"></div>
+                    </div>               
+               </div>
+            </div>
     <script src="./scripts/jquery-3.3.1.min.js"></script>
     <script src="./scripts/bootstrap.min.js"></script>
-
-
   </body>
 </html>
+

@@ -1,9 +1,3 @@
-<?php
-/**
- * Example Application
- *
- * @package Example-application
- */
 require_once "../private_html/config.php";
 //$smarty->force_compile = true;
 /*$smarty->debugging = true;
@@ -31,4 +25,4 @@ $smarty->assign(
 $smarty->assign("option_values", array("NY", "NE", "KS", "IA", "OK", "TX"));
 $smarty->assign("option_output", array("New York", "Nebraska", "Kansas", "Iowa", "Oklahoma", "Texas"));
 $smarty->assign("option_selected", "NE");*/
-$smarty->display('index.tpl');
+$smarty->display('AddRules.tpl');

@@ -1,8 +1,8 @@
 <html>
   <head>
-    <title> GameRepo </title>
-    <!-- <link rel="stylesheet" href="./Styles/bootstrap.min.css" /> -->
-    <link rel="stylesheet" href="../Styles/bootstrap.min.css"/>
+    <title>Card Games</title>
+    <link rel="stylesheet" href="./Styles/bootstrap.min.css" />
+    <link rel="mainstyle" href="./stylesheets/main.css" />
     <style>
         body > .container {
   padding: 75px 15px 0;
@@ -10,7 +10,6 @@
     </style>
   </head>
   <body>
-
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="./index.php">GameRepo</a>
@@ -30,8 +29,9 @@
               <a class="nav-link" href="./card_games.php">Card Games</a>
             </li>
             <li class="nav-item">
+
               <a class="nav-link" href="./sample_rules.php">Sample Rules</a>
-              </li>
+            </li>
             <!--<li class="nav-item">-->
             <!--  <a class="nav-link disabled" href="#">Disabled</a>-->
             <!--</li>-->
@@ -43,47 +43,32 @@
         </div>
       </nav>
     </header>
-   <div></br>  </div>
-    <main role="main" class="container">
-        <div class="hero">
-        
-        <h1>Welcome to the GameRepo!</h1>
-
-        <p>Please enjoy this repository for board and card game rules.</p>
-
-        <h2>Popular Games</h2>
-
-        <p>This sample text serves in place of suggested games as we currently have no rulesets to offer.</p>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nulla et metus congue finibus. Nam mauris nisl, sodales a purus quis, ornare commodo lacus.</p>
-
-        <h2>Trending Games</h2>
-
-        <p>This sample text serves in place of suggested games as we currently have no rulesets to offer.</p>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nulla et metus congue finibus. Nam mauris nisl, sodales a purus quis, ornare commodo lacus.</p>
-
-        <h2>Random Games</h2>
-
-        <p>This sample text serves in place of suggested games as we currently have no rulesets to offer.</p>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nulla et metus congue finibus. Nam mauris nisl, sodales a purus quis, ornare commodo lacus.</p>
-
-        <h2>Developers</h2>
-
-        <ul>
-                <li>Wyatt Derk</li>
-                <li>Eliezer Mwankenja</li>
-                <li>Ibi Braide</li>
-                <li>Joshua Simmons</li>
-                <li>Benjamin Underwood</li>
-        </ul>
+    <div></br>  </div>
+    <div class="container">
+      <div class="jumbotron col-md-12 col-lg-12"><center><h2>Card Games</h2></center></div>
+      <div class="row">
+        <div class="col-md-4 col-lg-4">
+          <picture>
+            <source srcset="images\photo-1529480384838-c1681c84aca5.jpg">
+            <img src="images\photo-1529480384838-c1681c84aca5.jpg" class="img-fluid img-thumbnail mx-auto" alt="Go Fish" width="100" height="100">
+            <h3><a href="./rules.php">Go Fish</a></h3>
+          </picture>
         </div>
-    </main>
-
-    <script src="./scripts/jquery-3.3.1.min.js"></script>
+        <div class="col-md-4 col-lg-4">
+          <picture>
+            <source srcset="images\photo-1529480384838-c1681c84aca5.jpg">
+            <img src="images\photo-1529480384838-c1681c84aca5.jpg" class="img-fluid img-thumbnail mx-auto" alt="Solitaire" width="100" height="100">
+            <h3>Solitaire</h3>
+          </picture>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <picture>
+            <source srcset="images\photo-1529480384838-c1681c84aca5.jpg">
+            <img src="images\photo-1529480384838-c1681c84aca5.jpg" class="img-fluid img-thumbnail mx-auto" alt="War" width="100" height="100">
+            <h3>War</h3>
+          </picture>
+        </div>
+    <script src="./script/jquery-3.3.1.min.js"></script>
     <script src="./scripts/bootstrap.min.js"></script>
-
-
   </body>
 </html>
